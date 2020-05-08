@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container, List, ListItem, ListButton } from './style.js';
+import { Container, List, ListItem, ListButton, Logo } from './style.js';
 import logo from '../../assets/logo.png';
 
 function NavBar() {
   return (
     <Container>
-      <img src={logo} alt='' />
+      <Logo src={logo} alt='logo' />
       <List>
         <ListItem>Contact</ListItem>
         <ListItem>Plans</ListItem>
