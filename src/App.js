@@ -3,6 +3,7 @@ import React from 'react';
 import NavBar from './sections/nav-bar';
 import Cover from './sections/cover';
 import DividerBrands from './sections/divider-brands';
+import InfoImageText from './sections/info-image-text';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <NavBar />
       <Cover />
       <DividerBrands />
+      <InfoImageText />
     </div>
   );
 }
